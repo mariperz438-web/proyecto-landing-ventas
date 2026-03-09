@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between; /*space-between espacio hasta cubrir todo y space around solo entre ellos*/
+  align-items: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("image-ventas.webp");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-contenido h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-contenido p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.btn-grande {
+  background-color: #ff4757;
+  color: white;
+  padding: 15px 40px;
+  font-size: 1, 1rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-grande:hover {
+  background-color: #e84118;
+  transform: scale(1.05); /* Crece un pelín, eso da sensación de calidad */
+}
+
+.servicios {
+  padding: 80px 50px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.servicios h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.contenedor-grid {
+  display: grid; /* Esto crea 3 columnas iguales automáticamente */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) /*repeat(3, 1fr)*/;
+  gap: 20px; /* El espacio entre las tarjetas */
+}
+
+.tarjeta {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.tarjeta:hover {
+  transform: translate(-10px); /* Sube un poquito al pasar el mouse */
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.redes a {
+  color: #ff4757;
+  text-decoration: none;
+  margin: 0 10x;
+  font-weight: bold;
+}
