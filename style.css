@@ -10,7 +10,7 @@
   color: white;
   padding: 20px 50px;
   display: flex;
-  justify-content: space-between; /*space-between espacio hasta cubrir todo y space around solo entre ellos*/
+  justify-content: space-between; 
   align-items: center;
 }
 
@@ -38,7 +38,7 @@
   text-align: center;
   background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("pexels-nemuel-6424583.jpg"); /* Pon aquí el nombre de tu nueva imagen */
+    url("pexels-nemuel-6424583.jpg"); 
   background-size: cover;
   background-position: center;
 }
@@ -67,7 +67,7 @@
 
 .btn-grande:hover {
   background-color: #e84118;
-  transform: scale(1.05); /* Crece un pelín, eso da sensación de calidad */
+  transform: scale(1.05); 
 }
 
 .servicios {
@@ -82,9 +82,9 @@
 }
 
 .contenedor-grid {
-  display: grid; /* Esto crea 3 columnas iguales automáticamente */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) /*repeat(3, 1fr)*/;
-  gap: 20px; /* El espacio entre las tarjetas */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .tarjeta {
@@ -97,7 +97,7 @@
 
 .tarjeta:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(255, 71, 87, 0.2); /* Un brillo sutil del color de tu marca */
+  box-shadow: 0 15px 30px rgba(255, 71, 87, 0.2);
 }
 
 .footer {
@@ -126,7 +126,7 @@
 
 #formulario-moto {
   max-width: 500px;
-  margin: 0 auto; /* Centra el formulario */
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -142,13 +142,13 @@
 }
 
 #formulario-moto input:focus {
-  border-color: #ff4757; /* El color de tu marca */
+  border-color: #ff4757;
 }
 
 @media (max-width: 768px) {
   .header {
     padding: 15px 20px;
-    flex-direction: column; /* El logo arriba y el botón abajo */
+    flex-direction: column;
     gap: 10px;
   }
 
@@ -157,8 +157,7 @@
   }
 
   .hero-contenido h1 {
-    font-size: 2rem; /* Texto más pequeño para que quepa */
-  }
+    font-size: 2rem;
 
   .hero-contenido p {
     font-size: 1rem;
@@ -170,11 +169,11 @@
   }
 
   .contenedor-grid {
-    grid-template-columns: 1fr; /* Una sola columna, una tarjeta debajo de la otra */
+    grid-template-columns: 1fr; 
   }
 
   .btn-grande {
-    width: 90%; /* Botones más anchos para que sean fáciles de tocar */
+    width: 90%;
     padding: 12px;
   }
-}
+}}
