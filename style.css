@@ -144,3 +144,37 @@
 #formulario-moto input:focus {
   border-color: #ff4757; /* El color de tu marca */
 }
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 20px;
+    flex-direction: column; /* El logo arriba y el botón abajo */
+    gap: 10px;
+  }
+
+  .nav {
+    margin: 10px 0;
+  }
+
+  .hero-contenido h1 {
+    font-size: 2rem; /* Texto más pequeño para que quepa */
+  }
+
+  .hero-contenido p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .servicios {
+    padding: 40px 20px;
+  }
+
+  .contenedor-grid {
+    grid-template-columns: 1fr; /* Una sola columna, una tarjeta debajo de la otra */
+  }
+
+  .btn-grande {
+    width: 90%; /* Botones más anchos para que sean fáciles de tocar */
+    padding: 12px;
+  }
+}
