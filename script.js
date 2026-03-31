@@ -9,7 +9,7 @@ formulario.addEventListener("submit", (e) => {
   const telefono = "584245409099"; // PONE TU NÚMERO AQUÍ (con código de país)
 
   // 2. Armamos el mensaje para WhatsApp
-  const mensajeWhatsApp = `Hola, mi nombre es ${nombre}. Estoy interesado en: ${producto}.`;
+  const mensajeWhatsApp = `Hola Mari! Mi nombre es ${nombre}. Me gustaría contratar el servicio de: ${producto}.`;
 
   // 3. Creamos la URL mágica de WhatsApp
   const url = `https://api.whatsapp.com/send?phone=${telefono}&text=${encodeURIComponent(mensajeWhatsApp)}`;

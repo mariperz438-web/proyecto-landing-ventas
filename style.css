@@ -30,17 +30,17 @@
 }
 
 .hero {
+  color: white;
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("image-ventas.webp");
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("pexels-nemuel-6424583.jpg"); /* Pon aquí el nombre de tu nueva imagen */
   background-size: cover;
   background-position: center;
-  color: white;
 }
 
 .hero-contenido h1 {
@@ -96,7 +96,8 @@
 }
 
 .tarjeta:hover {
-  transform: translate(-10px); /* Sube un poquito al pasar el mouse */
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(255, 71, 87, 0.2); /* Un brillo sutil del color de tu marca */
 }
 
 .footer {
